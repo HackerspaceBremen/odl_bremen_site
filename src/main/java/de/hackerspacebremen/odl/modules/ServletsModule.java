@@ -13,7 +13,7 @@ public class ServletsModule extends ServletModule {
 	protected void configureServlets() {
 		serve("/device").with(DeviceServlet.class);
 		serve("/admin").with(AdminServlet.class);
-		serve("/*").with(HomeServlet.class);
+		serve("/").with(HomeServlet.class);
 	}
 }
 

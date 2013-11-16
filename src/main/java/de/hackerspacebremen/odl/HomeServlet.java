@@ -20,10 +20,6 @@ public final class HomeServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		if(req.getRequestURI().equals("/")){
-			req.getRequestDispatcher("welcome.jsp").forward(req,resp);
-		}else{
-			req.getRequestDispatcher("error.jsp").forward(req,resp);
-		}
+		req.getRequestDispatcher("welcome.jsp").forward(req,resp);
 	}
 }
