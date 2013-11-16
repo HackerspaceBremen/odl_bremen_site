@@ -11,21 +11,10 @@
     <%
 		}else{
     %>
-    <title>Open Device Lab Bremen</title>
+    <title>ODL Bremen</title>
     <%
 		}
     %>
-    <%
-		if(request.getParameter("child")!=null && request.getParameter("child").equals("true")){
-	%>
-	<link rel="stylesheet" href="../theme/css/foundation.css">
-    <script src="../js/vendor/custom.modernizr.js"></script>
-	<%				
-		}else{
-	%>
-    <link rel="stylesheet" href="theme/css/foundation.css">
-    <script src="js/vendor/custom.modernizr.js"></script>
-    <%				
-		}
-	%>
+    <link rel="stylesheet" href="/theme/css/foundation.css">
+    <script src="/js/vendor/custom.modernizr.js"></script>
 </head>

@@ -1,4 +1,4 @@
-package de.hackerspacebremen.odl;
+package de.hackerspacebremen.odl.servlets;
 
 import java.io.IOException;
 
@@ -10,19 +10,16 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.inject.Singleton;
 
 @Singleton
-public final class DeviceServlet extends HttpServlet{
+public final class RegistrateServlet extends HttpServlet {
 
 	/**
 	 * generated serialVersionUID.
 	 */
-	private static final long serialVersionUID = -7180142209791290111L;
-	
+	private static final long serialVersionUID = -2849087089582120310L;
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO check device id from param
-		
-		req.getRequestDispatcher("device.jsp").forward(req,resp);
+		req.getRequestDispatcher("/registrate.jsp").forward(req,resp);
 	}
-
 }

@@ -9,7 +9,7 @@
 		<jsp:include page="basicJSPs/nav.jsp"/>
 		<div class="row">
 			<div class="large-12 columns">
-				<h3>Admin-Bereich</h3>
+				<h3>Admin: Neues Gerät</h3>
 			</div>
 		</div>
 		<div class="row">

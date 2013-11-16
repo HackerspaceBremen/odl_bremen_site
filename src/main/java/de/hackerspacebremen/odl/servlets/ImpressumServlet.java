@@ -1,4 +1,4 @@
-package de.hackerspacebremen.odl;
+package de.hackerspacebremen.odl.servlets;
 
 import java.io.IOException;
 
@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.inject.Singleton;
 
 @Singleton
-public final class AdminServlet extends HttpServlet {
+public final class ImpressumServlet extends HttpServlet {
 
 	/**
-	 * 
+	 * generated serialVersionUID.
 	 */
-	private static final long serialVersionUID = 2470955044840234675L;
+	private static final long serialVersionUID = -2685071851342465814L;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		req.getRequestDispatcher("admin.jsp").forward(req,resp);
+		req.getRequestDispatcher("/impressum.jsp").forward(req,resp);
 	}
 }

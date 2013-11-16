@@ -14,10 +14,10 @@
 	<section class="top-bar-section">
 		<ul class="right">
 			<!-- Should be optional -->
-			<li><a href="#devices">Geräte</a></li>
-			<li><a href="#donate">Spende ein Gerät</a></li>
-			<li><a href="#location">Anfahrt</a></li>
-			<li><a href="#contact">Kontakt</a></li>
+			<li><a href="/#devices">Geräte</a></li>
+			<li><a href="/donate">Spende ein Gerät</a></li>
+			<li><a href="/#location">Anfahrt</a></li>
+			<li><a href="/contact">Kontakt</a></li>
 		</ul>
 	</section>
 
