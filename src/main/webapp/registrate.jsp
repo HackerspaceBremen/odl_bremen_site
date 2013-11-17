@@ -13,7 +13,7 @@
 		<div class="row">
 			<!-- TODO Erklärung! -->	
 		</div>
-		<form action="/registrate">
+		<form action="/registrate" method="post">
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Vollständiger Name</label>

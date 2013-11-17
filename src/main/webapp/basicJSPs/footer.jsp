@@ -9,7 +9,7 @@
 			</div>
 			<div class="small-6 columns">
 				<ul class="inline-list right">
-					<li><a href="https://github.com/HackerspaceBremen/odl_bremen_site" target="_blank">Code on Github</a></li>
+					<li><a href="https://github.com/HackerspaceBremen/odl_bremen_site" target="_blank">Code auf Github</a></li>
 					<li><a href="/impressum">Impressum</a></li>
 				</ul>
 			</div>
@@ -26,6 +26,7 @@
 
 <script src="/js/foundation/foundation.js"></script>
 <script src="/js/foundation/foundation.topbar.js"></script>
+<script src="/js/basicValidation.js"></script>
 
 <script>
   $(document).foundation();

@@ -14,7 +14,9 @@
 		</div>
 		<div class="row">
 			<div class="large-10 columns">
-				<!-- TODO Admin Content -->
+				<jsp:include page="basicJSPs/deviceList.jsp">
+				  	<jsp:param name="admin" value="true" />
+				</jsp:include>
 			</div>
 			<jsp:include page="basicJSPs/adminMenue.jsp"/>
 		</div>

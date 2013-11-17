@@ -31,6 +31,7 @@
             <url-pattern>/appstats/*</url-pattern>
             <url-pattern>/admin</url-pattern>
             <url-pattern>/admin/*</url-pattern>
+            <url-pattern>/task/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>admin</role-name>
