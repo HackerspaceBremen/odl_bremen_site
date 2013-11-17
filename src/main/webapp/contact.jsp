@@ -13,23 +13,26 @@
 		<div class="row">
 			<!-- TODO Erklärung: Feedback und Kontaktaufnahme -->	
 		</div>
-		<form action="/registrate">
+		<form action="/registrate" onsubmit="return validateContactForm();" method="post">
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Vollständiger Name</label>
-					<input type="text">
+					<input id="full_name" name="full_name" type="text">
+					<small id="full_name_error" hidden>Bitte vollständigen Namen eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
 					<label>E-Mail</label>
-					<input type="email">
+					<input id="email" name="email" type="email">
+					<small id="email_error" hidden>Bitte eine E-Mail Adresse eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
 		      <div class="large-8 columns">
 		        <label>Dein Text</label>
-		        <textarea placeholder="Schreibe hier dein Anliegen/Feedback nieder"></textarea>
+		        <textarea id="contact_text" name="contact_text" placeholder="Schreibe hier dein Anliegen/Feedback nieder"></textarea>
+		        <small id="contact_text_error" hidden>Bitte trage hier dein Anliegen/Feedback ein!</small>
 		      </div>
 		    </div>
 			<div class="row">
@@ -39,5 +42,6 @@
 			</div>
 		</form>
 		<jsp:include page="basicJSPs/footer.jsp"/>
+		<script src="/js/contactValidation.js"></script>
 	</body>
 </html>

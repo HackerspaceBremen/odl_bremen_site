@@ -27,14 +27,14 @@
 				<div class="large-8 columns">
 					<label>E-Mail</label>
 					<input id="email" name="email" type="email">
-					<small id="email_error" hidden>Bitte eine E-Mail Adresse eintragen</small>
+					<small id="email_error" hidden>Bitte eine E-Mail Adresse eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Gerätebezeichnung</label>
 					<input id="device" name="device" type="text" placeholder="Bei mehreren Geräten bitte mit Komma trennen">
-					<small id="device_error" hidden>Bitte die Gerätebezeichnung eintragen</small>
+					<small id="device_error" hidden>Bitte die Gerätebezeichnung eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
