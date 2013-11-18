@@ -1,7 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-	<jsp:include page="basicJSPs/head.jsp" />
+	<jsp:include page="basicJSPs/head.jsp">
+		<jsp:param name="home" value="true"/>
+	</jsp:include>
 
 	<body>
 		<jsp:include page="basicJSPs/nav.jsp"/>
@@ -54,10 +56,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-5 columns">
-				<!-- TODO Karte einbinden! -->
+			<div class="large-7 columns" id="map-canvas">
+				<!-- map -->
 			</div>
-			<div class="large-7 columns">
+			<div class="large-5 columns">
 				<p>Den ODL in Bremen findest du an zwei Orten:<br/><br/>
 				Am Wochenende und Werktag Abends im <a href="http://www.hackerspace-bremen.de/locations.php" target="_blank">Hackerspace Bremen</a>. 
 				Und Werktags zwischen 8 und 18 Uhr im <a href="http://www.coworking-neusta.de/" target="_blank">Coworking Bereich von team neusta</a>. 
