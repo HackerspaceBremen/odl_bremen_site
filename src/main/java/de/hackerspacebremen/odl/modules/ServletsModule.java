@@ -11,6 +11,7 @@ import de.hackerspacebremen.odl.servlets.RegistrateServlet;
 import de.hackerspacebremen.odl.servlets.admin.AdminCreateDeviceServlet;
 import de.hackerspacebremen.odl.servlets.admin.AdminDevicesServlet;
 import de.hackerspacebremen.odl.servlets.admin.AdminServlet;
+import de.hackerspacebremen.odl.servlets.tasks.MailContactServlet;
 import de.hackerspacebremen.odl.servlets.tasks.MailDonateServlet;
 
 
@@ -32,6 +33,7 @@ public class ServletsModule extends ServletModule {
 		
 		// tasks
 		serve("/task/mail/donate").with(MailDonateServlet.class);
+		serve("/task/mail/contact").with(MailContactServlet.class);
 	}
 }
 

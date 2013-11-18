@@ -80,9 +80,9 @@ public class ContactRequest {
 	}
 
 	/**
-	 * @return the device
+	 * @return the contactText
 	 */
-	public String getDevice() {
+	public String getContactText() {
 		return contactText;
 	}
 

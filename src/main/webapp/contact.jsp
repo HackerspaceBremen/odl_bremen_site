@@ -13,7 +13,7 @@
 		<div class="row">
 			<!-- TODO Erklärung: Feedback und Kontaktaufnahme -->	
 		</div>
-		<form action="/registrate" onsubmit="return validateContactForm();" method="post">
+		<form action="/contact" onsubmit="return validateContactForm();" method="post">
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Vollständiger Name</label>
