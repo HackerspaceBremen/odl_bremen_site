@@ -34,6 +34,7 @@ public class ServletsModule extends ServletModule {
 		// tasks
 		serve("/task/mail/donate").with(MailDonateServlet.class);
 		serve("/task/mail/contact").with(MailContactServlet.class);
+// TODO		serve("/task/mail/registrate").with(MailRegistrateServlet.class);
 	}
 }
 

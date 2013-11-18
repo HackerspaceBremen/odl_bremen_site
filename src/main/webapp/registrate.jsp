@@ -13,27 +13,31 @@
 		<div class="row">
 			<!-- TODO Erklärung! -->	
 		</div>
-		<form action="/registrate" method="post">
+		<form action="/registrate" method="post" onsubmit="return validateRegistrateForm();">
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Vollständiger Name</label>
-					<input type="text">
+					<input id="full_name" name="full_name" type="text">
+					<small id="full_name_error" hidden>Bitte vollständigen Namen eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
 					<label>E-Mail</label>
-					<input type="email">
+					<input id="email" name="email" type="email">
+					<small id="email_error" hidden="hidden">Bitte eine E-Mail Adresse eintragen!</small>
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-4 columns">
 					<label>Datum</label>
-					<input type="date">
+					<input id="date" name="date" type="date">
+					<small id="date_error" hidden>Bitte gebe ein Datum mit mindestens 2 Tage in der Zukunft ein.</small>
 				</div>
 				<div class="large-4 columns">
 					<label>Zeit</label>
-					<input type="time">
+					<input id="time" name="time" type="time">
+					<small id="time_error" hidden>???</small><!-- TODO: hier unterschiedliche texte --> 
 				</div>
 				<div class="large-4 columns">
 					
@@ -42,23 +46,24 @@
 			<div class="row">
 				<div class="large-8 columns">
 					<label for="locationDropdown">Ort</label>
-				    <select id="locationDropdown" class="large">
+				    <select id="locationDropdown" name="locationDropdown" class="large">
 				        <!-- <option DISABLED>This is a dropdown</option> -->
 				        <option>Hackerspace Bremen, Bornstr. 14/15</option>
 				        <option>Coworking team neusta, Konsul-Smidt-Str. 24</option>
 				    </select>
-			    </div>
+				</div>
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
 					<label>Geräte</label>
-					<input type="text" placeholder="Bei mehreren Geräten bitte mit Komma trennen">
+					<input id="device" name="device" type="text" placeholder="Bei mehreren Geräten bitte mit Komma trennen">
+					<small id="device_error" hidden>Bitte trage hier mindestens ein Gerät ein!</small>
 				</div>
 			</div>
 			<div class="row">
 		      <div class="large-8 columns">
 		        <label>Weitere Informationen</label>
-		        <textarea placeholder="Nutze dieses Feld, um uns noch weitere Informationen mitzuteilen"></textarea>
+		        <textarea id="more_information" name="more_information" placeholder="Nutze dieses Feld, um uns noch weitere Informationen mitzuteilen"></textarea>
 		      </div>
 		    </div>
 			<div class="row">
@@ -68,5 +73,6 @@
 			</div>
 		</form>
 		<jsp:include page="basicJSPs/footer.jsp"/>
+		<script src="/js/registrateValidation.js"></script>
 	</body>
 </html>

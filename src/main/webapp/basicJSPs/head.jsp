@@ -1,7 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<meta charset="utf-8" />
+  	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
     
     <%
@@ -19,7 +20,7 @@
     	final String home = request.getParameter("home");
 		if(home!=null && home.equals("true")){
 	%>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<style type="text/css">
 	      #map-canvas { height: 60%; }
 	    </style>
@@ -49,6 +50,10 @@
 	      }
 	      google.maps.event.addDomListener(window, 'load', initialize);
 	    </script>
+	<%
+		}else{
+	%>
+		<meta name="viewport" content="width=device-width" />
 	<%
 		}
 	%>
