@@ -20,9 +20,9 @@ public final class DeviceServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO check device id from param
+		final String deviceId = req.getRequestURI().replace("/device/", "");
 		
-		req.getRequestDispatcher("/device.jsp").forward(req,resp);
+		req.getRequestDispatcher("/device.jsp?deviceId="+deviceId).forward(req,resp);
 	}
 
 }

@@ -24,6 +24,10 @@ public class Parameters {
 		return Boolean.parseBoolean(map.get(key));
 	}
 	
+	public boolean getCheckboolean(final String key){
+		return "checked".equals(map.get(key));
+	}
+	
 	public String get(final String key){
 		return map.get(key);
 	}

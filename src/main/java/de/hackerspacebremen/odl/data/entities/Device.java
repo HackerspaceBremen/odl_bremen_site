@@ -23,6 +23,8 @@ public class Device {
 	@Index
 	private String system;
 	
+	private boolean donated;
+	
 	private int resolutionX;
 	
 	private int resolutionY;
@@ -194,5 +196,19 @@ public class Device {
 	 */
 	public void setAvailable(boolean available) {
 		this.available = available;
+	}
+
+	/**
+	 * @return the donated
+	 */
+	public boolean isDonated() {
+		return donated;
+	}
+
+	/**
+	 * @param donated the donated to set
+	 */
+	public void setDonated(boolean donated) {
+		this.donated = donated;
 	}
 }

@@ -21,6 +21,10 @@ public class DeviceCommand extends WebCommand{
 		return this.deviceService.getDeviceDAO().findAll();
 	}
 	
+	public Device findById(final Long deviceId){
+		return this.deviceService.getDeviceDAO().findById(deviceId);
+	}
+	
 	public void createDevice(){
 		final Device newDevice = this.newDeviceFromParameters();
 		this.deviceService.getDeviceDAO().persist(newDevice);
@@ -38,6 +42,7 @@ public class DeviceCommand extends WebCommand{
 		newDevice.setMoreInformation(this.params.get("additional_information"));
 		newDevice.setAvailable(true);
 		newDevice.setCreated(new Date());
+		newDevice.setDonated(this.params.getboolean("donated"));
 		return newDevice;
 	}
 	

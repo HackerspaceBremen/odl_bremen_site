@@ -20,6 +20,7 @@ public class ServletsModule extends ServletModule {
 	@Override
 	protected void configureServlets() {
 		serve("/device").with(DeviceServlet.class);
+		serve("/device/*").with(DeviceServlet.class);
 		serve("/impressum").with(ImpressumServlet.class);
 		serve("/").with(HomeServlet.class);
 		serve("/donate").with(DonateServlet.class);

@@ -34,7 +34,8 @@
 		      		<th>System</th>
 		      		<th>Auflösung</th>
 		      		<th>Spender</th>
-		      		<th>Details</th>
+		      		<th></th>
+		      		<th></th>
 <%
 				if(admin){
 %>
@@ -60,12 +61,21 @@
 <%
 				}else{
 %>
-		      		<td><a href="<%=device.getDonatedByURL()%>" 
-		      		target="_blank"><%=device.getDonatedBy()%></a></td>
+		      		<td><%=device.getDonatedBy()%></td>
+<%
+				}
+				if(device.isDonated()){
+%>
+					<td></td>				
+<%
+				}else{
+%>
+					<td>Leihgabe</td>
 <%
 				}
 %>
-		      		<td><a href="/device?id=<%=device.getId().longValue()%>">TODO</a></td>
+
+		      		<td><a href="/device/<%=device.getId().longValue()%>">Details</a></td>
 <%
 				if(admin){
 %>		      		

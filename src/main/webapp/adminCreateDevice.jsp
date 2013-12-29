@@ -41,15 +41,17 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="large-4 columns">
+						<div class="large-3 columns">
 							<label>Spender</label>
 							<input id="donated_by" name="donated_by" type="text">
 						</div>
-						<div class="large-4 columns">
+						<div class="large-3 columns">
 							<label>URL</label>
 							<input id="donated_by_url" name="donated_by_url" type="url" placeholder="Optional">
 						</div>
-						<div class="large-4 columns">
+						<div class="large-2 columns">
+							<label>Spende?</label>
+							<input id="donated" name="donated" value="donated" type="checkbox">
 						</div>
 					</div>
 					<div class="row">
