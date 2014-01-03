@@ -61,7 +61,7 @@
 			</div>
 			<div class="large-5 columns">
 				<p>Den ODL in Bremen findest du an zwei Orten:<br/><br/>
-				Am Wochenende und Werktag Abends im <a href="http://www.hackerspace-bremen.de/locations.php" target="_blank">Hackerspace Bremen</a>. 
+				Am Wochenende und Werktag Abends im <a href="http://www.hackerspace-bremen.de/anfahrt" target="_blank">Hackerspace Bremen</a>. 
 				Und Werktags zwischen 8 und 18 Uhr im <a href="http://www.coworking-neusta.de/" target="_blank">Coworking Bereich von team neusta</a>. 
 				Damit wir die gewünschten Geräte zur Verfügung stellen können, melde dich mindestens 2 Tage vorher bei 
 				uns an: <a href="/registrate">Anmeldung</a><br/><br/>
