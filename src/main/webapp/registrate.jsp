@@ -1,4 +1,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.Calendar"%>
+<%@ page import="java.util.Locale"%>
+<%@ page import="java.util.Date"%>
+<%@ page import="java.text.SimpleDateFormat" %>
+
+<%
+	final Calendar cal = Calendar.getInstance(Locale.GERMANY);
+	cal.setTime(new Date());
+	cal.add(Calendar.DAY_OF_YEAR, 2);
+	final String minDate = new SimpleDateFormat("yyyy-MM-dd").format(cal.getTime());
+%>
 
 <html>
 	<jsp:include page="basicJSPs/head.jsp"/>
@@ -11,7 +22,15 @@
 			</div>
 		</div>
 		<div class="row">
-			<!-- TODO Erklärung! -->	
+			<div class="large-10 columns">
+			<p>
+			Wenn du ein Gerät aus dem Open Device Lab nutzen möchtest, kannst du dich bis zu zwei Tage 
+			vorher bei uns mit Hilfe dieses Formulars anmelden. Die Nutzung des Gerätes ist nur an
+			den vorgegebenen Orten möglich.<br/>
+			Bedenke, dass wir nicht jeden Anmeldungswunsch erfüllen können, da wir den ODL gemeinnützig
+			und mit begrenzten Ressourcen betreiben.
+			</p>
+			</div>
 		</div>
 		<form action="/registrate" method="post" onsubmit="return validateRegistrateForm();">
 			<div class="row">
@@ -31,13 +50,13 @@
 			<div class="row">
 				<div class="large-4 columns">
 					<label>Datum</label>
-					<input id="date" name="date" type="date">
-					<small id="date_error" hidden>Bitte gebe ein Datum mit mindestens 2 Tage in der Zukunft ein.</small>
+					<input id="date" name="date" type="date" min="<%=minDate%>">
+					<small id="date_error" hidden>Bitte gebe ein Datum mit mindestens 2 Tage in der Zukunft ein!</small>
 				</div>
 				<div class="large-4 columns">
 					<label>Zeit</label>
 					<input id="time" name="time" type="time">
-					<small id="time_error" hidden>???</small><!-- TODO: hier unterschiedliche texte --> 
+					<small id="time_error" hidden>Bitte gebe eine Zeit zwischen 8 und 20 Uhr ein!</small> 
 				</div>
 				<div class="large-4 columns">
 					

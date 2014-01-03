@@ -42,7 +42,7 @@ public class DeviceCommand extends WebCommand{
 		newDevice.setMoreInformation(this.params.get("additional_information"));
 		newDevice.setAvailable(true);
 		newDevice.setCreated(new Date());
-		newDevice.setDonated(this.params.getboolean("donated"));
+		newDevice.setDonated(this.params.getCheckboolean("donated"));
 		return newDevice;
 	}
 	

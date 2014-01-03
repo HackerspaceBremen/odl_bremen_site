@@ -62,7 +62,13 @@
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
+					<%
+					if(device.getResolutionX()!=-1 && device.getResolutionY()!=-1){
+					%>
 					<p><strong>Auflösung:</strong> <%=device.getResolutionX()%> x <%=device.getResolutionY()%></p>
+					<%
+					}
+					%>
 				</div>
 			</div>
 			<div class="row">

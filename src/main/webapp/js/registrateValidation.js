@@ -28,15 +28,21 @@ function validateRegistrateForm(){
 		showError(emailElement, emailErrorElement);
 		result = false;
 	}
-	console.log("Datum: " + dateElement.val());
-	console.log("Zeit: " + timeElement.val());
-	console.log("Ort: " + $("#locationDropdown").val())
-	// TODO dateElement
-	// TODO timeElement
+	if(!validateSimpleText(dateElement.val())){
+		showError(dateElement, dateErrorElement);
+		result = false;
+	}
+	if(!validateSimpleText(timeElement.val())){
+		showError(timeElement, timeErrorElement);
+		result = false;
+	}
+	// console.log("Datum: " + dateElement.val());
+	// console.log("Zeit: " + timeElement.val());
+	// console.log("Ort: " + $("#locationDropdown").val())
 	if(!validateSimpleText(deviceElement.val())){
 		showError(deviceElement, deviceErrorElement);
 		result = false;
 	}
 	// more information doesn't need to be given
-	return false;
+	return result;
 }

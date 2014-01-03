@@ -4,7 +4,6 @@
 	<ul class="title-area">
 		<li class="name">
 			<h1>
-				<!-- TODO maybe icon? -->
 				<a href="/">Open Device Lab Bremen</a>
 			</h1>
 		</li>

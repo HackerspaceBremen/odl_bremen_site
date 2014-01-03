@@ -11,7 +11,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<!-- TODO Erklärung: Feedback und Kontaktaufnahme -->	
+			<div class="large-10 columns">
+			<p>Mit diesem Formular hast du die Möglichkeit das ODL-Bremen-Team zu kontaktieren. 
+			Wir freuen uns besonders über Feedback zu unserem Angebot, unserer Website oder unseren 
+			Präsenzen auf sozialen Netzwerken.</p>
+			</div>
 		</div>
 		<form action="/contact" onsubmit="return validateContactForm();" method="post">
 			<div class="row">

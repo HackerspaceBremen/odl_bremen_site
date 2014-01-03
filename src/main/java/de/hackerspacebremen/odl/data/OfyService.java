@@ -7,6 +7,7 @@ import com.googlecode.objectify.ObjectifyService;
 import de.hackerspacebremen.odl.data.entities.ContactRequest;
 import de.hackerspacebremen.odl.data.entities.Device;
 import de.hackerspacebremen.odl.data.entities.DonationRequest;
+import de.hackerspacebremen.odl.data.entities.RegistrateRequest;
 
 public class OfyService {
 
@@ -14,6 +15,7 @@ public class OfyService {
         factory().register(Device.class);
         factory().register(DonationRequest.class);
         factory().register(ContactRequest.class);
+        factory().register(RegistrateRequest.class);
         // more
     }
 

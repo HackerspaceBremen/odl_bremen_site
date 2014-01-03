@@ -11,9 +11,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<!-- TODO Erklärung: Hier auch sagen, dass wir nicht jedes Gerät annehmen können 
-			
-			Möglichst Internetfähig -->	
+			<div class="large-10 columns">
+			<p>Wir freuen uns über jede Gerätespende, die das Angebot des Open Device Labs vergrößert.
+			Beachte bitte, dass wir nicht jedem Spendenangebot nachkommen können. Wir achten besonders 
+			darauf, dass das Gerät Internetfähig ist und nicht doppelt in unserem Angebot vorkommt. Das
+			gilt nicht unbedingt auf das Gerätemodell, sondern auch auf die Geräteart, die 
+			Betriebssystem-Version und die Auflösung.
+			</p>
+			</div>	
 		</div>
 		<form action="/donate" onsubmit="return validateDonateForm();" method="post">
 			<div class="row">

@@ -10,8 +10,7 @@
 		
 		<div class="row">
 		    <div class="large-12 columns">
-			<!-- <img src="http://placehold.it/1000x400&text=[img]"> -->
-		      <img src="/images/title_icon_2.png">
+			  <img src="/images/title_icon_2.png">
 		      <hr>
 		    </div>
 		  </div>
@@ -22,7 +21,7 @@
 		      <p style="text-align:center;">Mit der zunehmenden Fragmentierung des Smartphone- und Tablet-Marktes wird es kostspielig alle 
 		      relevanten Test-Geräte vorzuhalten. In <a href="http://opendevicelab.com/" target="_blank">Open Device Labs
 		      </a> werden durch Spenden und Leihgeräte öffentliche 
-		      Gerätepools aufgebaut, die jedem kostenlos zur Verfügung stehen.<br/><br/>
+		      Gerätepools aufgebaut, die jedem kostenlos zur Verfügung stehen.<br/>
 		      <a href="http://klick-ass.com/de/awesomeness/opendevicelab-com-a-directory-to-a-global-movement" target="_blank">
 		      Mehr...</a></p>
 		    </div>
@@ -35,7 +34,8 @@
 			<div class="large-4 columns">
 		      <h3 style="text-align:center;">Spende ein Gerät</h3>
 		      <p style="text-align:center;">Um den Nutzern des Labs eine möglichst große Variation an Gerät zu bieten, benötigen wir 
-		      möglichst viele unterschiedliche Geräte. TODO Verlinkung auf Spenden Seite?</p>
+		      möglichst viele unterschiedliche Geräte. Wenn du ein Gerät spenden oder als Leihgabe zur Verfügung stellen möchtest, dann 
+		      nutze unser <a href="/donate">Spendenformular</a>.</p>
 		    </div>
 		</div>
 		<jsp:include page="basicJSPs/seperator.jsp"/>
@@ -68,14 +68,18 @@
 				Du kannst natürlich auch gerne spontan vorbeikommen, allerdings können wir 
 				dann nicht garantieren, dass ein Ansprechpartner vor Ort ist oder dein
 				gewünschtes Gerät zur Verfügung steht.</p>
-				<!-- TODO Links fehlen noch! -->
 			</div>
 		</div>
 		<jsp:include page="basicJSPs/seperator.jsp"/>
 		<div class="row">
 			<div class="large-4 columns">
 				<h3 style="text-align:center;">Soziale Netzwerke</h3>
-				<!-- TODO: soziale Netzwerke -->
+				<p style="text-align:center;">
+				<a href="https://www.facebook.com/ODLBremen" target="_blank">Facebook</a><br/>
+				<a href="https://plus.google.com/104242465309447182051" target="_blank">Google+</a><br/>
+				<a href="https://twitter.com/ODLBremen" target="_blank">Twitter</a><br/>
+				<!-- <a href="" target="_blank">App.net</a><br/> -->
+				</p>
 			</div>
 			<div class="large-4 columns">
 				<!-- <h3>Weitere ODLs in Deutschland</h3>  -->
@@ -92,7 +96,6 @@
 		<div class="row">
 			<div class="large-12 columns" style="text-align:center;">
 				<h3>Partner und Sponsoren</h3>
-				<!-- TODO: Partner und Sponsoren -->
 			</div>
 		</div>
 		<div class="row">

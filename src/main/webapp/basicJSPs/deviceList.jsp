@@ -32,7 +32,7 @@
 		    	<tr>
 		      		<th>Gerät</th>
 		      		<th>System</th>
-		      		<th>Auflösung</th>
+		      		<!-- <th>Auflösung</th> -->
 		      		<th>Spender</th>
 		      		<th></th>
 		      		<th></th>
@@ -53,7 +53,7 @@
 		    	<tr>
 		      		<td><%=device.getDevice()%></td>
 		      		<td><%=device.getSystem()%></td>
-		      		<td><%=device.getResolutionX()%> x <%=device.getResolutionY()%></td>
+		      		<!-- <td><%=device.getResolutionX()%> x <%=device.getResolutionY()%></td> -->
 <%
 				if(device.getDonatedByURL()==null || device.getDonatedByURL().isEmpty()){
 %>
@@ -79,7 +79,7 @@
 <%
 				if(admin){
 %>		      		
-		      		<td><a href="/admin/device/edit?id=<%=device.getId().longValue()%>">TODO</a></td>
+		      		<td><a href="/admin/device/edit?id=<%=device.getId().longValue()%>">Bearbeiten</a></td>
 <%
 				}
 %>

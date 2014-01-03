@@ -38,8 +38,7 @@ public class RegistrateCommand extends WebCommand{
 	 private RegistrateRequest newRegistrateFromParameters(){
 		 final RegistrateRequest registrate = new RegistrateRequest();
 		 registrate.setCreated(new Date());
-		 // TODO get date from parameters
-		 //registrate.setDate(date);
+		 registrate.setDate(this.params.getDate("date", "time"));
 		 registrate.setDevice(this.params.get("device"));
 		 registrate.setEmail(this.params.get("email"));
 		 registrate.setName(this.params.get("full_name"));
