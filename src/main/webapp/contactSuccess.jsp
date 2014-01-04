@@ -16,8 +16,8 @@
 				<strong>Vielen Dank für deine Kontaktaufnahme!</strong>
 				<br/><br/>
 				Deine Anfrage mit der ID #<%=request.getParameter("contactId")%> 
-				wurde erfolgreich vermittelt. Du wirst in Kürze eine
-				Email von uns erhalten. 
+				wurde erfolgreich vermittelt. Wir werden deine Anfrage 
+				schnellstmöglich beantworten.
 				<br/>
 				<br/>
 				Dein ODL Bremen Team

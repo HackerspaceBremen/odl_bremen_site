@@ -58,8 +58,10 @@
 				<h4>4. Datenschutz</h4>
 				<p>Durch den Besuch der Website des Anbieters können Informationen über den Zugriff (Datum, Uhrzeit, 
 				betrachtete Seite) gespeichert werden. Diese Daten gehören nicht zu den personenbezogenen Daten, sondern 
-				sind anonymisiert. Sie werden ausschließlich zu statistischen Zwecken ausgewertet. Eine Weitergabe an 
-				Dritte, zu kommerziellen oder nichtkommerziellen Zwecken, findet nicht statt.<br/><br/>Der Anbieter weist 
+				sind anonymisiert. Sie werden ausschließlich zu statistischen Zwecken ausgewertet. Eine Weitergabe an Dritte, 
+				zu kommerziellen oder nichtkommerziellen Zwecken, findet nur im Rahmen der <a href="#analytics">Nutzung von 
+				Google Analytics</a> 
+				statt.<br/><br/>Der Anbieter weist 
 				ausdrücklich darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) 
 				Sicherheitslücken aufweisen und nicht lückenlos vor dem Zugriff durch Dritte geschützt werden kann.<br/>
 				<br/>Die Verwendung der Kontaktdaten des Impressums zur gewerblichen Werbung ist ausdrücklich nicht 
@@ -72,7 +74,7 @@
 				im jeweiligen Einzelfall die besonderen Nutzungsbedingungen.<br/><br/>Quelle: 
 				<a href="http://www.juraforum.de/disclaimer-fuers-impressum/" target="_blank">Juraforum</a></p>
 				
-				<h3>Nutzung von Google Analytics</h3>
+				<h3 id="analytics">Nutzung von Google Analytics</h3>
 				<p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). 
 				Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und 
 				die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten 

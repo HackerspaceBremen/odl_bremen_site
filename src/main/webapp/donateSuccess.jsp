@@ -16,8 +16,8 @@
 				<strong>Vielen Dank für deine Gerätespende!</strong>
 				<br/><br/>
 				Deine Anfrage "Gerätespende" mit der ID #<%=request.getParameter("donationId")%> 
-				wurde erfolgreich vermittelt. Du wirst in Kürze eine
-				Email von uns erhalten. Wenn du Fragen hast, antworte bitte direkt auf die Email
+				wurde erfolgreich vermittelt. Wir werden deine Anfrage 
+				schnellstmöglich beantworten. Wenn du Fragen hast, antworte bitte direkt auf die E-mail
 				oder nutze unser <a href="/contact">Kontaktformular</a>!
 				<br/>
 				Vielen Dank, dass du das Open Device Lab Bremen mit deiner Spende unterstützt!

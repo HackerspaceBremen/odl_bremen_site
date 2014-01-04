@@ -42,7 +42,7 @@
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
-					<label>E-Mail</label>
+					<label>E-Mail-Adresse</label>
 					<input id="email" name="email" type="email">
 					<small id="email_error" hidden="hidden">Bitte eine E-Mail Adresse eintragen!</small>
 				</div>

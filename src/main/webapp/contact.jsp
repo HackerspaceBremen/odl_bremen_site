@@ -12,7 +12,7 @@
 		</div>
 		<div class="row">
 			<div class="large-10 columns">
-			<p>Mit diesem Formular hast du die Möglichkeit das ODL-Bremen-Team zu kontaktieren. 
+			<p>Mit diesem Formular hast du die Möglichkeit, das ODL-Bremen-Team zu kontaktieren. 
 			Wir freuen uns besonders über Feedback zu unserem Angebot, unserer Website oder unseren 
 			Präsenzen auf sozialen Netzwerken.</p>
 			</div>
@@ -27,7 +27,7 @@
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
-					<label>E-Mail</label>
+					<label>E-Mail-Adresse</label>
 					<input id="email" name="email" type="email">
 					<small id="email_error" hidden>Bitte eine E-Mail Adresse eintragen!</small>
 				</div>

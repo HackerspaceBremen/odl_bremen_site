@@ -1,0 +1,8 @@
+# robots.txt zu http://www.odl-bremen.de/
+
+User-agent: *
+Disallow: /basicJSPs/
+Disallow: /WEB-INF/
+Disallow: /admin/
+Disallow: /task/
+Disallow: /appstats/

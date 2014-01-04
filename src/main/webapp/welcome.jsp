@@ -18,7 +18,7 @@
 		<div class="row">
 			<div class="large-4 columns">
 		      <h3 style="text-align:center;">Open Device Labs</h3>
-		      <p style="text-align:center;">Mit der zunehmenden Fragmentierung des Smartphone- und Tablet-Marktes wird es kostspielig alle 
+		      <p style="text-align:center;">Mit der zunehmenden Fragmentierung des Smartphone- und Tablet-Marktes wird es kostspielig, alle 
 		      relevanten Test-Geräte vorzuhalten. In <a href="http://opendevicelab.com/" target="_blank">Open Device Labs
 		      </a> werden durch Spenden und Leihgeräte öffentliche 
 		      Gerätepools aufgebaut, die jedem kostenlos zur Verfügung stehen.<br/>
@@ -29,11 +29,12 @@
 		      <h3 style="text-align:center;">Open Device Lab Bremen</h3>
 		      <p style="text-align:center;">Das <strong>Open Device Lab in Bremen</strong> ist ein Projekt des <a href="http://www.hackerspace-bremen.de" 
 		      target="_blank">Hackerspace Bremen e.V.</a> Das Lab wird 
-		      von den Mitgliedern des gemeinnützigen Vereins betrieben.</p>
+		      von den Mitgliedern des gemeinnützigen Vereins betrieben.<br/>An den Orten des Labs kannst du deine App oder deine Website 
+		      an den <a href="/#devices">Geräten des Labs</a> ausprobieren. <a href="/registrate">Melde dich dafür einfach bei uns an.</a></p>
 		    </div>
 			<div class="large-4 columns">
 		      <h3 style="text-align:center;">Spende ein Gerät</h3>
-		      <p style="text-align:center;">Um den Nutzern des Labs eine möglichst große Variation an Gerät zu bieten, benötigen wir 
+		      <p style="text-align:center;">Um den Nutzern des Labs eine möglichst große Variation an Geräten zu bieten, benötigen wir 
 		      möglichst viele unterschiedliche Geräte. Wenn du ein Gerät spenden oder als Leihgabe zur Verfügung stellen möchtest, dann 
 		      nutze unser <a href="/donate">Spendenformular</a>.</p>
 		    </div>
@@ -60,11 +61,11 @@
 				<!-- map -->
 			</div>
 			<div class="large-5 columns">
-				<p>Den ODL in Bremen findest du an zwei Orten:<br/><br/>
-				Am Wochenende und Werktag Abends im <a href="http://www.hackerspace-bremen.de/anfahrt" target="_blank">Hackerspace Bremen</a>. 
+				<p>Das ODL in Bremen findest du an zwei Orten:<br/><br/>
+				Am Wochenende und werktags abends im <a href="http://www.hackerspace-bremen.de/anfahrt" target="_blank">Hackerspace Bremen</a>. 
 				Und Werktags zwischen 8 und 18 Uhr im <a href="http://www.coworking-neusta.de/" target="_blank">Coworking Bereich von team neusta</a>. 
-				Damit wir die gewünschten Geräte zur Verfügung stellen können, melde dich mindestens 2 Tage vorher bei 
-				uns an: <a href="/registrate">Anmeldung</a><br/><br/>
+				Damit wir die gewünschten Geräte zur Verfügung stellen können, <a href="/registrate">melde dich mindestens 2 Tage vorher bei 
+				uns an</a><br/><br/>
 				Du kannst natürlich auch gerne spontan vorbeikommen, allerdings können wir 
 				dann nicht garantieren, dass ein Ansprechpartner vor Ort ist oder dein
 				gewünschtes Gerät zur Verfügung steht.</p>
@@ -87,8 +88,8 @@
 			</div>
 			<div class="large-4 columns">
 				<h3 style="text-align:center;">Gib uns Feedback</h3>
-				<p style="text-align:center;">Wir würden uns über ein Feedback von dir zu dieser Website oder 
-				zu unserem Angebot freuen: <a href="/contact">Gib uns Feedback</a></p>
+				<p style="text-align:center;">Wir würden uns über ein <a href="/contact">Feedback von dir zu dieser Website oder 
+				zu unserem Angebot freuen</a></p>
 				<!-- TODO bewerte uns auf opendevicelab.org -->
 			</div>
 		</div>

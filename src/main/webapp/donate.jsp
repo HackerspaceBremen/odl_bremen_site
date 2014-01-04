@@ -7,15 +7,15 @@
 		<jsp:include page="basicJSPs/nav.jsp"/>
 		<div class="row">
 			<div class="large-12 columns">
-				<h3>Gerätspende</h3>
+				<h3>Gerätespende</h3>
 			</div>
 		</div>
 		<div class="row">
 			<div class="large-10 columns">
 			<p>Wir freuen uns über jede Gerätespende, die das Angebot des Open Device Labs vergrößert.
 			Beachte bitte, dass wir nicht jedem Spendenangebot nachkommen können. Wir achten besonders 
-			darauf, dass das Gerät Internetfähig ist und nicht doppelt in unserem Angebot vorkommt. Das
-			gilt nicht unbedingt auf das Gerätemodell, sondern auch auf die Geräteart, die 
+			darauf, dass das Gerät internetfähig ist und nicht doppelt in unserem Angebot vorkommt. Das
+			gilt nicht unbedingt nur für das Gerätemodell, sondern auch für die Geräteart, die 
 			Betriebssystem-Version und die Auflösung.
 			</p>
 			</div>	
@@ -30,7 +30,7 @@
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
-					<label>E-Mail</label>
+					<label>E-Mail-Adresse</label>
 					<input id="email" name="email" type="email">
 					<small id="email_error" hidden>Bitte eine E-Mail Adresse eintragen!</small>
 				</div>

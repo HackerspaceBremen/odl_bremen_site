@@ -16,8 +16,8 @@
 				<strong>Vielen Dank für deine Anmeldung!</strong>
 				<br/><br/>
 				Deine Anfrage mit der ID #<%=request.getParameter("registrateId")%> 
-				wurde erfolgreich vermittelt. Du wirst in Kürze eine
-				Email von uns erhalten. In dieser Email erfolgt dann die tatsächliche
+				wurde erfolgreich vermittelt. Wir werden deine Anfrage 
+				schnellstmöglich beantworten. In dieser E-mail erfolgt dann die tatsächliche
 				Bestätigung oder Absage.
 				<br/>
 				<br/>
