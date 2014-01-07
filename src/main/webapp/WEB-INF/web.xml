@@ -30,6 +30,9 @@
         <web-resource-collection>
             <url-pattern>/appstats/*</url-pattern>
             <url-pattern>/admin</url-pattern>
+            <url-pattern>/admin.jsp</url-pattern>
+            <url-pattern>/adminCreateDevice.jsp</url-pattern>
+            <url-pattern>/adminDevices.jsp</url-pattern>
             <url-pattern>/admin/*</url-pattern>
             <url-pattern>/task/*</url-pattern>
         </web-resource-collection>
