@@ -79,7 +79,7 @@
 				<a href="https://www.facebook.com/ODLBremen" target="_blank">Facebook</a><br/>
 				<a href="https://plus.google.com/104242465309447182051" target="_blank">Google+</a><br/>
 				<a href="https://twitter.com/ODLBremen" target="_blank">Twitter</a><br/>
-				<!-- <a href="" target="_blank">App.net</a><br/> -->
+				<a href="https://alpha.app.net/ODLBremen" target="_blank">App.net</a><br/>
 				</p>
 			</div>
 			<div class="large-4 columns">
