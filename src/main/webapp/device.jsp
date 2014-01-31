@@ -80,12 +80,13 @@
 					%>
 				</div>
 			</div>
-			<%if(device.getDetailLink()!=null && !device.getDetailLink().isEmpty()) {%>
+			<%if(device.getMoreInformation()!=null && !device.getMoreInformation().isEmpty()) {%>
 			<div class="row">
 				<div class="large-8 columns">
 					<p><strong>Weitere Informationen:</strong> <%=device.getMoreInformation()%></p>
 				</div>
 			</div>
+			<%} if(device.getDetailLink()!=null && !device.getDetailLink().isEmpty()) {%>
 			<div class="row">
 				<div class="large-8 columns">
 					<p>Noch detailliertere Informationen zum Gerät finden sich <a href="<%=device.getDetailLink()%>" target="_blank">im Vereinsarchiv des Hackerspace Bremen</a>.</p>
