@@ -43,12 +43,12 @@ public class MailRegistrateCommand extends WebCommand{
 	
 	private void write(final RegistrateRequest request){
 		final Session session = Session.getDefaultInstance(new Properties(), null);
-        final Message msg = new MimeMessage(session);
+        final MimeMessage msg = new MimeMessage(session);
         try {
             msg.setFrom(new InternetAddress("hshbdeveloper@gmail.com", "ODL Bremen ADMIN")); // TODO use propertyservice for second attribute
 	        msg.addRecipient(Message.RecipientType.TO,
 	                         new InternetAddress("admins"));
-	        msg.setSubject("Neue Geräteanfrage"); // TODO use propertyservice 
+	        msg.setSubject("Neue Geräteanfrage", "UTF-8"); // TODO use propertyservice 
 	        final StringBuilder sBuilder = new StringBuilder("Hallo Chef,\n\nes wurde eine Geräteanfrage über die Website erstellt:\n\n");
 	        sBuilder.append("Wann (Anfrage erstellt):");
 	        sBuilder.append(sdf.format(request.getCreated()));

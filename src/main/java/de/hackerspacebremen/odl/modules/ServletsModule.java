@@ -4,6 +4,7 @@ import com.google.inject.servlet.ServletModule;
 
 import de.hackerspacebremen.odl.servlets.ContactServlet;
 import de.hackerspacebremen.odl.servlets.DeviceServlet;
+import de.hackerspacebremen.odl.servlets.DevicesEnoughServlet;
 import de.hackerspacebremen.odl.servlets.DonateServlet;
 import de.hackerspacebremen.odl.servlets.HomeServlet;
 import de.hackerspacebremen.odl.servlets.ImpressumServlet;
@@ -22,6 +23,7 @@ public class ServletsModule extends ServletModule {
 	protected void configureServlets() {
 		serve("/device").with(DeviceServlet.class);
 		serve("/device/*").with(DeviceServlet.class);
+		serve("/devices/enough").with(DevicesEnoughServlet.class);
 		serve("/impressum").with(ImpressumServlet.class);
 		serve("/").with(HomeServlet.class);
 		serve("/donate").with(DonateServlet.class);

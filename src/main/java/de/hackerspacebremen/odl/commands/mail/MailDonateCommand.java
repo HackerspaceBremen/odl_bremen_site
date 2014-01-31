@@ -43,12 +43,12 @@ public class MailDonateCommand extends WebCommand{
 	
 	private void write(final DonationRequest request){
 		final Session session = Session.getDefaultInstance(new Properties(), null);
-        final Message msg = new MimeMessage(session);
+        final MimeMessage msg = new MimeMessage(session);
         try {
             msg.setFrom(new InternetAddress("hshbdeveloper@gmail.com", "ODL Bremen ADMIN")); // TODO use propertyservice for second attribute
 	        msg.addRecipient(Message.RecipientType.TO,
 	                         new InternetAddress("admins"));
-	        msg.setSubject("Neue Gerätespende"); // TODO use propertyservice 
+	        msg.setSubject("Neue Gerätespende", "UTF-8"); // TODO use propertyservice 
 	        final StringBuilder sBuilder = new StringBuilder("Hallo Chef,\n\nes wurde eine Gerätespende über die Website angeboten:\n\n");
 	        sBuilder.append("Wann:");
 	        sBuilder.append(sdf.format(request.getCreated()));

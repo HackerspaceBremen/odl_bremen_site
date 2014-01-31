@@ -27,6 +27,8 @@
 				von der Gewerbesteuer befreit.</p>
 				<h3>Screendesign und Implementierung</h3>
 				<p>Steve Liedtke</p>
+				<h3>Logodesign</h3>
+				<p>Felix Behrens</p>
 				<h3>Disclaimer – rechtliche Hinweise</h3>
 				<h4>1. Haftungsbeschränkung</h4>
 				<p>Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt 

@@ -3,6 +3,6 @@
 User-agent: *
 Disallow: /basicJSPs/
 Disallow: /WEB-INF/
-Disallow: /admin/
+Disallow: /admin
 Disallow: /task/
 Disallow: /appstats/

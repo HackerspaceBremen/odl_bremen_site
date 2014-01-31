@@ -40,8 +40,17 @@
 			</div>
 			<div class="row">
 				<div class="large-8 columns">
-					<p>Zur Verfügung gestellt von <a href="<%=device.getDonatedByURL()%>" target="_blank"><%=device.getDonatedBy()%></a>
+					<p>Zur Verfügung gestellt von 
 					<%
+					if(device.getDonatedByURL()==null || device.getDonatedByURL().isEmpty()){
+					%>
+						<%=device.getDonatedBy()%>
+					<%
+					}else{
+					%>
+						<a href="<%=device.getDonatedByURL()%>" target="_blank"><%=device.getDonatedBy()%></a>
+					<%
+					}
 					if(device.isDonated()){
 					%>
 					als <strong>Spende</strong>.
@@ -71,6 +80,7 @@
 					%>
 				</div>
 			</div>
+			<%if(device.getDetailLink()!=null && !device.getDetailLink().isEmpty()) {%>
 			<div class="row">
 				<div class="large-8 columns">
 					<p><strong>Weitere Informationen:</strong> <%=device.getMoreInformation()%></p>
@@ -82,6 +92,7 @@
 				</div>
 			</div>
 		<%
+			}
 		}
 		%>
 		<jsp:include page="basicJSPs/footer.jsp"/>

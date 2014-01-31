@@ -10,7 +10,7 @@
 		
 		<div class="row">
 		    <div class="large-12 columns">
-			  <img src="/images/title_icon_2.png">
+			  <img style="width:100%;" src="/images/title_icon_2.png">
 		      <hr>
 		    </div>
 		  </div>
@@ -46,8 +46,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-6 large-centered columns">
+			<div class="large-10 large-centered columns">
 				<jsp:include page="basicJSPs/deviceList.jsp"/>
+			</div>
+			<div class="large-6 large-centered columns">
+				<p style="text-align: center;">Es ist möglich <a href="/devices/enough">weitere Geräte von enough software</a> über das ODL auszuleihen.</p>
 			</div>
 		</div>
 		<jsp:include page="basicJSPs/seperator.jsp"/>
@@ -100,10 +103,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<ul class="large-block-grid-3">
+			<ul class="large-block-grid-4">
 			  <li><a href="http://www.hackerspace-bremen.de/" target="_blank"><img src="/images/HSpace_HB_Logo_2.png" alt="Hackerspace Bremen e.V."></a></li>
 			  <li><a href="http://www.coworking-neusta.de/" target="_blank"><img src="/images/logo_coworking_2.png" alt="team neusta co.working"></a></li>
 			  <li><a href="http://neusta-ms.de/" target="_blank"><img src="/images/logo_neusta_ms_2.png" alt="neusta mobile solutions"></a></li>
+			  <li><a href="http://www.enough.de/" target="_blank"><img src="/images/logo_enough_2.png" alt="enough software"></a></li>
 			</ul>
 		</div>
 		

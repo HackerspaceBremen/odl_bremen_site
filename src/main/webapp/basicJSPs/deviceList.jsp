@@ -27,7 +27,7 @@
 <%		
 	}else{
 %>
-		<table>
+		<table style="margin-left: auto;margin-right: auto;">
 		  	<thead>
 		    	<tr>
 		      		<th>Gerät</th>
